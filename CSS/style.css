@@ -1,0 +1,21 @@
+tei-supplied {
+  color:red;
+  }
+
+tei-seg[rend="dropInit"] {
+  font-size: 300%;
+  float: left;
+  line-height: 1em;
+  padding-right: 10px;
+  }
+ 
+ tei-subst > tei-del {
+ display: none;
+ text-decoration: line-through;
+ }
+ 
+ tei-subst > tei-add {
+ color: blue;
+ cursor: pointer;
+ }
+ 
